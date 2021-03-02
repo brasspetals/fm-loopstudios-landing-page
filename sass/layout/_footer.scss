@@ -72,8 +72,7 @@
       transform: scaleX(0);
     }
 
-    &:hover,
-    &:focus {
+    &:hover {
       &::before {
         transform: scaleX(1);
       }

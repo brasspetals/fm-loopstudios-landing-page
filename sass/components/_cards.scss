@@ -55,8 +55,7 @@
     }
   }
 
-  &:hover,
-  &:focus {
+  &:hover {
     &::before {
       transform: scale(1.05);
     }

@@ -33,10 +33,14 @@ a {
 
 button {
   border: none;
-  outline-offset: 5px;
+  outline-offset: 0.5rem;
   background-color: transparent;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+:focus {
+  outline-offset: 0.5rem;
 }
